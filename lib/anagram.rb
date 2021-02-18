@@ -12,8 +12,8 @@ class Anagram
     anagrams = []
     word_array.each do |match| 
       word_chars = word.split("") 
-      anagram?_chars = match.split("") 
-      if  word_chars.sort == anagram?_chars.sort
+      anagram_chars = match.split("") 
+      if  word_chars.sort == anagram_chars.sort
         anagrams << match
       end
     end
